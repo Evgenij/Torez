@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="pictures/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b388b447e5.js" crossorigin="anonymous"></script>
+
+    <title>Официальный сайт города Тореза</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-title">
+            <h1>Официальный сайт города Тореза</h1>
+            <div class="contacts">
+                <span>телефон диспетчера<br>администрации</span>
+                <div class="phone">
+                    <h2>(071) 322-60-79</h2>
+                    <img src="pictures/phone.svg" alt="phone">
+                </div>
+            </div>
+        </div>
+        <img class="logo" src="pictures/logo.png" alt="logo">
+    </header>
+    <nav>
+        <ul>
+            <a href="main.html">
+                <li>Главная</li>
+            </a>
+            <a href="main.html#news">
+                <li>Новости</li>
+            </a>
+            <a href="main.html#media">
+                <li>Медиа</li>
+            </a>
+            <a href="history.html">
+                <li>История</li>
+            </a>
+            <a href="infrastructure.html">
+                <li>Инфраструктура</li>
+            </a>
+            <a href="culture.html">
+                <li>Культура</li>
+            </a>
+        </ul>
+    </nav>
+
+    <main class="container developer">
+        <div class="content">
+            <div class="developer-name">
+                <span>UI & UX Дизайнер | Web - разработчик </span>
+                <h2>Евгений Ермоленко</h2>
+                <p>Укажите ваши контактные данные и я свяжусь с Вами в ближайшее время</p>
+            </div>
+            <form action="" method="GET">
+                <div class="row">
+                    <input type="text" placeholder="имя" required>
+                    <input type="text" placeholder="фамилия">
+                </div>
+                <div class="row">
+                    <input type="tel" placeholder="телефон">
+                    <input type="email" placeholder="электронная почта" required>
+                </div>
+                <div class="row">
+                    <select name="service">
+                        <option value="design">Дизайн макет сайта</option>
+                        <option value="layout">Верстка сайта</option>
+                        <option value="design_layout">Дизайн + верстка сайта</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <textarea placeholder="дополнительная информация" disabled></textarea>
+                </div>
+                <button>отправить заявку <i class="fa fa-paper-plane-o fa-fw"></i></button>
+            </form>
+        </div>
+        <img src="/pictures/avatar.svg" alt="avatar">
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <img src="pictures/dev.svg" alt="dev" class="dev">
+            <span>разработчик</span>
+            <h3>Ермоленко Евгений</h3>
+            <img src="pictures/link.svg" alt="link" class="link">
+            <a href="developer.html">связаться с разработчиком</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
